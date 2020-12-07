@@ -1,9 +1,9 @@
 @import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 .cursive {
-  font-family: "Pacifico",cursive;
+  font-family: "Pacifico", sans-serif;
   font-weight: 700;
 }
 
@@ -15,4 +15,12 @@
 
 .home-name {
   font-size: 150px;
+}
+.navBarBackground {
+  background-image: linear-gradient(to top, #07111e, #1e2b35, #37464d, #546366, #748181);
+
+}
+
+.navBarBackground text:hover{
+  color: #748181;
 }
