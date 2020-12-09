@@ -17,8 +17,6 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "studio": "cd studio && sanity start",
-    "dev": "concurrently --kill-others-on-fail \"npm run start\" \"npm run studio\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
